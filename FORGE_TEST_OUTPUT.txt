@@ -1,0 +1,23 @@
+No files changed, compilation skipped
+
+Ran 2 tests for test/M1.t.sol:M1YieldDonationTest
+[PASS] test_claimEndToEnd() (gas: 2859181)
+Logs:
+  pending MOR before claim (1e18): 626044949542918308557
+  pending MOR after claim (1e18): 0
+
+[PASS] test_yieldDonationSkewsMOR() (gas: 2503316)
+Logs:
+  attacker aWBTC balance: 9999999
+  CONTROL pending MOR (1e18): 12949538977610215
+  CONTROL pool distributedRewards: 1349581412571698382
+  ATTACK pending MOR (1e18): 626044949542918308557
+  ATTACK pool distributedRewards: 884552831950371218639
+  delta attacker MOR (1e18): 626032000003940698342
+  delta pool MOR (1e18): 883203250537799520257
+  donation cost USD (1e18): 262714200000000000000
+  attacker MOR gain USD (1e18): 438222400002758488839
+
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 192.42ms (238.98ms CPU time)
+
+Ran 1 test suite in 237.85ms (192.42ms CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)
